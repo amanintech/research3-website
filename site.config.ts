@@ -53,12 +53,12 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: 'About',
-       pageId: '9c11186453734777b807cce609a79f45'
+       title: 'Whitepaper',
+       pageId: 'https://bip.so/@research3/'
      },
      {
-       title: 'Get in touch',
-      pageId: '8d4b1368360a41908918802966c097a9'
+       title: 'Get Involved',
+      pageId: 'https://discord.gg/AfSReS7S'
      }
    ]
 })
