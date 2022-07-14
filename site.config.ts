@@ -49,16 +49,6 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  //navigationStyle: 'default'
-   navigationStyle: 'custom',
-   navigationLinks: [
-    {
-       title: 'Whitepaper',
-       pageId: 'https://bip.so/@research3/'
-     },
-     {
-       title: 'Get Involved',
-      pageId: 'https://discord.gg/AfSReS7S'
-     }
-   ]
+  navigationStyle: 'default'
+  // navigationStyle: 'custom'
 })
