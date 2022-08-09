@@ -9,15 +9,15 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Researh3 | DAO ecosystem for Research',
+  name: 'Researh3 | Research OS for decentralized future',
   domain: 'research3.xyz',
   author: 'Research3 DAO',
 
   // open graph metadata (optional)
-  description: 'Decentralized research ecosystem',
+  description: 'Research OS for decentralized future',
 
   // social usernames (optional)
-  twitter: '',
+  twitter: 'research3_xyz',
   github: '',
   linkedin: '',
   // newsletter: '#', // optional newsletter URL
@@ -49,6 +49,21 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom'
+  navigationStyle: 'custom',
+   navigationLinks: [
+    {
+    title: '🎯 Vision',
+    pageId: 'd7496259ebde4828963558c4106a1b3d'
+  },
+    {
+       title: '🤘🏻 Project',
+       pageId: 'b46bf64bdd9b4ff3a1eca47f80e714aa'
+     },
+
+     {
+            title: '🚀 Join',
+            pageId: 'c79115a4816047469198048605b65e27'
+          }]
+
 })
+
