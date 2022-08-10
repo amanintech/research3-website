@@ -52,16 +52,16 @@ export default siteConfig({
   navigationStyle: 'custom',
    navigationLinks: [
     {
-    title: '🎯 Vision',
+    title: '🎯 Goal',
     pageId: 'd7496259ebde4828963558c4106a1b3d'
   },
     {
-       title: '🤘🏻 Project',
+       title: '🏗 Project',
        pageId: 'b46bf64bdd9b4ff3a1eca47f80e714aa'
      },
 
      {
-            title: '🚀 Join',
+            title: '🤝 Join',
             pageId: 'c79115a4816047469198048605b65e27'
           }]
 
